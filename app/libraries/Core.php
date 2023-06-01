@@ -2,7 +2,7 @@
 
 class Core
 {
-    private $currentController = 'VolcanoController';
+    private $currentController = 'ExaminatorController';
     private $currentMethod = 'index';
     private $params = [];
 
@@ -48,7 +48,7 @@ class Core
 
             return $url;
         } else {
-            return array('VolcanoController', 'index');
+            return array('ExaminatorController', 'index');
         }
     }
 }
